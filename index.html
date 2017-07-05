@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Coding Journal</title>
+    <title>To Do List Project</title>
+    <link rel='stylesheet' type='css' href='styles.css'>
+    <script src='main.js'></script>
   </head>
   <body>
-  	<h1>Hello, World!</h1>  
+  	<h1>To Do List</h1>
+  	<body>
+  		<form>
+  			<div>
+  				To Do List: <input type="text" id="list_input" value="Enter list name" size=90 />
+  				<br>
+  				<input type="button" value="Create new list" onClick="create_named_list();" />
+  				<br>
+  				<br>
+  				Task: <input type="text" id="task_input" name="task" value="Enter task" size="90" />
+  				<br>
+  				<input type="button" value="Add to list" onClick="add();" />
+  			</div>
+  		</form>
+
+  		<div id="table_div">
+  			
+  		</div>
+  	</body>
   </body>
 </html>
